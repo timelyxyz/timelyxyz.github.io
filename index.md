@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: 徐玉珠eeee
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -13,13 +13,12 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 In `_config.yml` remember to specify your own data:
     
-    title : My Blog =)
+    title : {{site.title}}
     
     author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+      name : {{ site.author.name }}
+      email : {{ site.author.email }}
+      github : {{ site.author.github }}
 
 The theme should reference these variables whenever needed.
     
@@ -35,7 +34,7 @@ Here's a sample "posts list".
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+  {% endfor %}  
 </ul>
 
 ## To-Do
