@@ -22,4 +22,4 @@ To change an existing remote URL, use the `git remote set-url` command:
 
 The command takes two args:
 * existing remote name: `origin`
-* new URL for the remote: `https://github.com/user/repo2.git`
+	
