@@ -324,11 +324,14 @@ section {
 /* Footer */
 
 footer {
-  width:170px;
+  font-size: 12px;
+  line-height: 1em;
+  text-align: center;
+  width: 240px;
   float:left;
   position:fixed;
   bottom:10px;
-	padding-left: 50px;
+  padding-left: 10px;
 }
 
 @media print, screen and (max-width: 960px) {
