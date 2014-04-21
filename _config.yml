@@ -10,9 +10,10 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : stay hungry, stay foolish
+#title: more moves, less talking
 tagline: better late than never
 author : 
-  name : Eva Xu
+  name : Yuzhu Xu/徐玉珠
   email : timely.xyz@gmail.com
   github : timelyxyz
 # twitter : username
