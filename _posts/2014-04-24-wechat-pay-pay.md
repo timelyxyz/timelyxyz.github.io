@@ -162,3 +162,18 @@ notify_url对应的action主要用于接收微信支付回执，针对相应的�
 	    sign = CryptoJS.SHA1(keyvaluestring).toString();
 	    return sign;
 	}
+	
+	
+<script type="text/javascript">
+var time=(new Date()).getTime();
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'timelyxyz'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
