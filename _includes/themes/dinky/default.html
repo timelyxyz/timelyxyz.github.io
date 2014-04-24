@@ -85,12 +85,14 @@
 	  <div id="right-panel">
 	      {{ content }}
 		  <footer>
-	       <small>Diligently authored by <a href="http://github.com/{{ site.author.github }}/#disqus_thread">Yuzhu Xu</a> in 2013-2014, with the help of GitHub Pages and Jekyll Bootstrap.</small>
+	       <small>Diligently authored by <a href="http://github.com/{{ site.author.github }}/">Yuzhu Xu</a> in 2013-2014, with the help of GitHub Pages and Jekyll Bootstrap.</small>
 	      </footer>
       </div>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    <div id="disqus_thread"></div>
     <script type="text/javascript">
+    var time=(new Date()).getTime();
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'timelyxyz'; // required: replace example with your forum shortname
 
@@ -101,6 +103,7 @@
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
+    disqus_identifier = time;
     </script>
   </body>
 </html>
