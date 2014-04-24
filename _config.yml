@@ -85,11 +85,11 @@ JB :
     provider : disqus
     disqus : 
       short_name : timelyxyz
-     livefyre :
+    livefyre : 
        site_id : 123
-     intensedebate :
+    intensedebate :
        account : timelyxyz
-     facebook :
+    facebook :
        appid : 123
        num_posts: 5
        width: 580
