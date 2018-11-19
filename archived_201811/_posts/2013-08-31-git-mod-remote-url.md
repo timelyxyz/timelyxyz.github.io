@@ -3,7 +3,7 @@ layout: page
 title: "git modify remote url from ssh to https"
 description: ""
 ---
-{% include JB/setup %}
+[//]: # {% include JB/setup %}
 
 To change an existing remote URL, use the `git remote set-url` command:
 
